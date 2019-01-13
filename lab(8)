@@ -1,0 +1,57 @@
+print('Q1(a)')
+import time
+local_time=time.strftime(('%a %b %d %Y'),time.localtime())
+print(local_time)
+print('Q1(b)')
+date_time=time.strftime(('%I:%M%p,"central day time on" %b/%d/%Y')
+print(date_time)
+datetime=("i will meet you on",time.strftime('%a %b/%d),'at',time.strftime(%I:%M%p))
+print(datetime)
+print('Q2')
+forecast='it will be a sunny day'
+print(Q2(a))
+print(forecast.count('day'))
+print(Q2(b))
+print(forecast.find('sunny'))
+print(Q2(c))
+print(forecast.replace('sunny','cloudy')
+print('Q3')
+def even(x):
+for i in range (2,x)
+if i%2==0 and i%3==0:
+print (i,"is divisible by 2 and 3")
+elif i%3==0:
+print (i,"is divisible by 3")
+even(17)
+print("Q4")
+first=input("enter your first name:")
+last=input("enter your last name:")
+street=input("enter your street name:")
+number=input("enter your number:")
+city=input("enter your city name:")
+state=input("enter your state name:")
+zipcode=input("enter your zipcode:")
+print("{0} {1} \n {3} {2} \n {4}, {5} {6}".format (first,last,street,number,city,state,zipcode))
+print('Q5(a)')
+message="the secret of this message is that it is secret."
+print(message)
+print('Q5(b)')
+lenght=len(message)
+print(lenght)
+print('Q5(c)')
+count=meassage.count('secret')
+print(count)
+print('Q5(d)')
+censored=message.replace('secret','xxxxxx')
+print(censored)
+print("Q6")
+def month(n):
+calendar=["JAN","FEB","MAR","APR","MAY,"JUN","JUL","AUG","SEP","OCT","NOV","DEC"]
+print(calendar[n-1])
+month(5)
+print("Q7")
+team=input("enter a team name")
+def cheer(team):
+print("How do you spell winner?+"\n I know , I know!" "\n"+team.upper()+"!"+"\n And thats how you spell the winner!"+"\n Go" + team+ "!"+\n")
+cheer(team)
+
